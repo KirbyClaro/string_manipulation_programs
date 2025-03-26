@@ -3,3 +3,6 @@
 # function parameter. Create a program that do 
 # the same functionality without using 
 # removeprefix() function.
+
+user_input = input("Enter a string: ")
+prefix = input("Enter a prefix: ")
