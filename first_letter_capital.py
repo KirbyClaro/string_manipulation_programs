@@ -11,4 +11,7 @@ new_words = []
 
 for word in split_input:
     new_word = word[0].upper() + word[1:].lower() if word else "" 
-    new_words.append(new_word)
+    new_words.append(new_word)\
+
+result = " ".join(new_words)
+print("Result: " + result)
