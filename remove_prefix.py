@@ -11,3 +11,7 @@ def remove_prefix(user_input, prefix):
     if user_input.startswith(prefix):
         return user_input[len(prefix):]
     return user_input
+
+result = remove_prefix(user_input, prefix)
+
+print("The modified string is:", result)
