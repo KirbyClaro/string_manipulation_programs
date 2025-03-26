@@ -8,3 +8,9 @@ def remove_leading_spaces(text):
         if text[position] != ' ':  # Found a non-space character
             break
         position += 1
+    return text[position:]
+
+text = input("Enter a text: ")
+
+print ("\n This is the original text:",repr(text))
+print ("\n This is the new text:",repr(remove_leading_spaces(text)))
