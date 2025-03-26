@@ -3,3 +3,7 @@
 # And all other letter in small case. Create a 
 # program that do the same functionality without 
 # using title() function.
+
+user_input = input("Enter a string: ")
+
+split.input = user_input.split()
