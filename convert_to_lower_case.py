@@ -3,16 +3,23 @@
 # Create a program that do the same 
 # functionality without using lower() function.
 
+#user input
 user_input = input("Enter a string: ")
 
+# Function to convert uppercase to lowercase
 def lower_user_input(user_input):
-    result = ""
+    result = "" 
+    # Iterate over each character in the input string and convert uppercase letters to lowercase
     for char in user_input:
-        if "A" <= char <= "Z":
-            result += chr(ord(char) + 32)
+        # ord() function returns the Unicode code point of a character
+        if 'A' <= char <= 'Z':  
+            # Subtract 32 from the Unicode code point of the 
+            # uppercase letter to get the lowercase letter's Unicode code point
+            result += chr(ord(char) + 32)  
         else:
-            result += char
-        return result
+            result += char  
+    return result
 
+# Call the function and print the result
 result = lower_user_input(user_input)
-print("The lower case version of the string is:", lower_user_input(user_input))
+print("The lower case version of the string is:", result)
