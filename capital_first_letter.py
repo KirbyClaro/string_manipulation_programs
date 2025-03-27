@@ -8,4 +8,8 @@ user_input = input("Enter a string: ")
 result = capitalization(user_input)
 
 def capitalization(user_input):
-    if len(user_input) == 0
+    if len(user_input) == 0:
+        return user_input
+    return user_input[0].upper + user_input[1:].lower
+
+print("Capitalized string: ", result)
