@@ -1,4 +1,4 @@
-#Prog07. zfill() add zero characters at the 
+#Prog07B7. zfill() add zero characters at the 
 #beginning of the string to complete the number 
 #of characters specifies in function parameter. 
 #Create a program that do the same functionality 
