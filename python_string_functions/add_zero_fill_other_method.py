@@ -6,3 +6,8 @@
 
 user_input = input("Enter a string: ")
 total_width = int(input("Enter the total width: "))
+
+while len(user_input) < total_width:
+    user_input = "0" + user_input
+
+print("Result:", repr(user_input))
