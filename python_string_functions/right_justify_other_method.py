@@ -1,4 +1,4 @@
-#Prog06. rjust() add space characters 
+#Prog06B7. rjust() add space characters 
 # at the beginning of the string to 
 # complete the number of characters 
 # specifies in function parameter. 
