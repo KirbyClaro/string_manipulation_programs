@@ -9,3 +9,10 @@ character_finder = input("Enter a character to find: ")
 
 # find the first occurrence of the character in the string and store its index
 index = -1 
+
+for i in range(len(user_input)-1, -1, -1):
+    if user_input[i] == character_finder:
+        index = i
+        break
+    
+print("Last occurrence index:", index)
