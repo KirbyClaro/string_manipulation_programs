@@ -3,3 +3,6 @@
 #Create a program that do the same functionality 
 #without using startswith() function.
 
+user_input = input("Enter a string: ")
+prefix = input("Enter a prefix: ")
+matches = True
